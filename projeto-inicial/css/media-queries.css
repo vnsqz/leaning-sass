@@ -22,13 +22,13 @@
 		display: block;
 	}
 
-	.menu-opcoes {
+	.menu-principal {
 		position: static;
 		display: block;
 		text-align: center;
 	}
 
-	.menu-opcoes li {
+	.menu-principal li {
 		margin: .4em;
 	}
 
@@ -37,8 +37,8 @@
 		height: 250px;
 	}
 
-	.menu-opcoes,
-	.menu-opcoes li,
+	.menu-principal,
+	.menu-principal li,
 	.post-destaque,
 	.posts-antigos,
 	form {
