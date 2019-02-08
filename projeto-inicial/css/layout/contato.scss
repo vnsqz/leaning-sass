@@ -26,6 +26,6 @@ textarea {
   width: 210px;
   height: 38px;
   font-size: 1.2em;
+  @extend %sombra-padrao;
   @include borda-arredondada;
-  @include sombra;
 }

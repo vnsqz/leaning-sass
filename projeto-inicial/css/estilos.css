@@ -1,6 +1,12 @@
-@charset "UTF-8";
-/* importação de variaveis */
-/* importando o reset.css */
+.social li a, .plataformas li {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat; }
+
+.contato button, .destaque button, .plano button {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -359,7 +365,6 @@ td,
 th {
   padding: 0; }
 
-/* importação de seções */
 /** Blog **/
 .blog {
   display: block;
@@ -420,16 +425,14 @@ textarea {
 
 .contato button {
   margin: 0 auto;
-  background: #c69;
+  background: #73264d;
   border: 0;
   color: #fff;
   width: 210px;
   height: 38px;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+  border-radius: 0.3em; }
 
 /** Destaque **/
 .destaque {
@@ -454,14 +457,12 @@ textarea {
 
 .destaque button {
   margin-top: 1em;
-  background: #c69;
+  background: #73264d;
   border: 0;
   padding: .6em;
   font-size: 1.2em;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold; }
 
 /** Footer **/
@@ -482,7 +483,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #052;
+  background: #00a241;
   top: 0;
   left: 0;
   bottom: 0;
@@ -529,9 +530,6 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   margin-left: 1em; }
 
 .social a {
@@ -571,8 +569,8 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #c69;
-  background: rgba(0, 85, 34, 0.8);
+  border-top: 5px solid #73264d;
+  background: rgba(0, 162, 65, 0.8);
   height: 90px;
   width: 100%;
   position: absolute; }
@@ -599,7 +597,7 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #052; }
+  background: #00a241; }
 
 .planos h2 {
   color: #fff; }
@@ -617,7 +615,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #c69;
+  background: #73264d;
   text-align: center;
   height: 2em;
   padding-top: .6em;
@@ -625,7 +623,7 @@ header .container {
 
 .plano div {
   text-align: center;
-  color: #c69;
+  color: #73264d;
   font-size: 2.75em; }
 
 .itens-plano {
@@ -642,7 +640,7 @@ header .container {
     float: right; }
 
 .plano button {
-  background: #c69;
+  background: #73264d;
   border: 0;
   color: #fff;
   width: 210px;
@@ -650,8 +648,6 @@ header .container {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em; }
 
 .icone-check, .icone-x {
@@ -691,9 +687,6 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   background-position: center;
   margin: 1em 1.5em 0 0; }
 

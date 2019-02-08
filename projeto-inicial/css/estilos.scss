@@ -1,11 +1,11 @@
-/* importação de variaveis */
+// importação de variaveis
 @import "helpers/variaveis.scss";
 @import "helpers/mixins.scss";
 
-/* importando o reset.css */
+// importando o reset.css
 @import "base/normalize";
 
-/* importação de seções */
+// importação de seções
 @import "layout/blog";
 @import "layout/contato";
 @import "layout/destaque";
