@@ -10,7 +10,7 @@ header {
     position: relative;
   }
 
-  @media (max-width: 980px) {
+  @media #{$mq-mobile} {
     height: auto;
 
     .container{

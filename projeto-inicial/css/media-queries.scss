@@ -1,6 +1,4 @@
-@media (max-width: 980px) {
-
-	header h1
+@media #{$mq-mobile} {
 
 	.menu-principal {
 		position: static;
